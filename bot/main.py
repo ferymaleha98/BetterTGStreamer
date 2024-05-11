@@ -15,7 +15,7 @@ logger = Logger(__name__)
 @app.on_message(filters.command("start") & filters.private & filters.incoming)
 async def start(client: Client, message: Message):
     await message.reply_text(
-        """💠 **Enhance Your Streaming with Better TG Streamer Bot**
+        """💠 **Enhance Your Streaming with Fm Movie Bot**
 
 Transform MP4 and MKV files into smooth M3U8 HLS streams! Remote URL uploading is supported from various hosts, including FTP, Direct Links, Google Drive, OneDrive, and more. Enjoy unlimited file uploads and permanent file links.
 
@@ -23,7 +23,7 @@ Transform MP4 and MKV files into smooth M3U8 HLS streams! Remote URL uploading i
 
 🆘 Need help? Join our support group: **@TechZBots_Support**.
 
-**Made with ❤️ by @TechZBots**.
+**Made with ❤️ by Ferymaleha**.
 """
     )
 
@@ -31,9 +31,9 @@ Transform MP4 and MKV files into smooth M3U8 HLS streams! Remote URL uploading i
 @app.on_message(filters.command("help") & filters.private & filters.incoming)
 async def help(client: Client, message: Message):
     await message.reply_text(
-        """🤖 **Better TG Streamer Bot Help**
+        """🤖 **Fm Movie Bot Help**
 
-Here are the commands you can use to unleash the full potential of Better TG Streamer Bot:
+Here are the commands you can use to unleash the full potential of Fm Movie Bot:
 
 1. **/convert**: Convert Video To M3u8
    - **Speed**: Fast
