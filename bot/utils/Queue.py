@@ -64,7 +64,7 @@ async def queue_handler():
                 logger.error(e)
                 try:
                     await data["proc"].edit_text(
-                        f"❌ **Error :** {e}\n\n**Try Again Or Contact @TechZBots_Support**"
+                        f"❌ **Error :** {e}\n\n**Try Again Or Contact @ferymaleha**"
                     )
                 except Exception as e:
                     logger.warning(e)
@@ -208,14 +208,14 @@ async def process_video(
         logger.error(f"{hash} : {e}")
         try:
             await proc.edit_text(
-                f"❌ **Error :** {e}\n\n**Try Again Or Contact @TechZBots_Support**",
+                f"❌ **Error :** {e}\n\n**Try Again Or Contact @ferymaleha97**",
                 disable_web_page_preview=True,
             )
         except Exception as e:
             logger.warning(e)
             try:
                 await message.reply_text(
-                    f"❌ **Error :** {e}\n\n**Try Again Or Contact @TechZBots_Support**",
+                    f"❌ **Error :** {e}\n\n**Try Again Or Contact @ferymaleha97**",
                     disable_web_page_preview=True,
                 )
             except Exception as e:
