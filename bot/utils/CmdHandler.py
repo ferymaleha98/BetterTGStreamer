@@ -74,7 +74,7 @@ async def check_file(
         logger.error(e)
         try:
             await message.reply_text(
-                f"❌ **Error :** {e}\n\n**Try Again Or Contact @TechZBots_Support**"
+                f"❌ **Error :** {e}\n\n**Try Again Or Contact @ferymaleha97**"
             )
         except Exception as e:
             logger.debug(e)
@@ -124,7 +124,7 @@ To upload a file, use the command /remote [file_url]
 
 `FTP URL, Direct Link (M3U8), Google Drive, OneDrive, mediafire.com, Yandex Disk, FileSend.jp, OK.RU, Mail.Ru, VK.com, Gofile.io, Streamtape.com, Vimeo.com, Youtube.com, Streamlare.com, 1fichier.com, MEGA, DropMeFiles.com, TusFiles.com, MixDrop, FileMoon, FileLions, StreamWish, VOE.sx, TeraBox, Fembed, VidMoly, Uptobox, PornHub.com, XVIDEOS.COM, xHamster.com`
 
-💠 **Supported URL Formats :** https://t.me/TechZBots/813
+💠 **Supported URL Formats :** https://t.me/fmmovie97
 """,
             disable_web_page_preview=True,
         )
