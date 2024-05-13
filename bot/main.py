@@ -23,7 +23,7 @@ Transform MP4 and MKV files into smooth M3U8 HLS streams! Remote URL uploading i
 
 🆘 Need help? Join our support group: **@fmmovie97**.
 
-**Made with ❤️ by Ferymaeha**.
+**Made with ❤️ by Ferymaleha**.
 """
     )
 
